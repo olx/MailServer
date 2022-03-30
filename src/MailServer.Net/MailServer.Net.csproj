@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Copyright>Oleg Gussak</Copyright>
+    <Version>1.0.0.0</Version>
+    <Company></Company>
+    <Authors>Oleg Gussak</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="SmtpServer" Version="9.0.1" />
+    <PackageReference Include="TDLib" Version="1.7.9" />
+    <PackageReference Include="tdlib.native" Version="1.7.9.1" />
+  </ItemGroup>
+
+</Project>
